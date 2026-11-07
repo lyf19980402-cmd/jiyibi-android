@@ -24,7 +24,7 @@ jobs:
           gradle-version: "8.9"
 
       - name: Unpack Android project
-        run: unzip -q JiYiBi_Android_Source_v1.0.1.zip -d project
+        run: unzip -q JiYiBi_Android_Source_v1.0.1-1.zip -d project
 
       - name: Build installable APK
         working-directory: project/MinimalLedger
